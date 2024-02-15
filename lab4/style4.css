@@ -1,0 +1,26 @@
+#radius {
+border: 1px solid #000000;
+width: 300px;
+height: 300px;
+background-color: red;
+border-radius: 5000px;
+}
+.orange {
+	border: 1px solid #000000;
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+	float: left;
+}
+#sq1:hover {
+	background-color:  #ff9f19;
+}
+#sq2:hover {
+	background-color:  #ff9f19;
+}
+#sq1 {
+	background-color: red;
+}
+#sq2 {
+	background-color: black;
+}

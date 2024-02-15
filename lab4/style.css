@@ -1,0 +1,59 @@
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: DarkGreen;
+	text-align: center;
+}
+h2 {
+	font-size: 26px;
+	color: Maroon;
+	text-align: center;
+}
+h3 {
+	font-size: 28px;
+	color: brown;
+	text-align: center;
+}
+h4 {
+	font-size: 26px;
+	letter-spacing: 6px;
+	text-align: center;
+}
+h5 {
+	font-size: 30px;
+	color: red;
+	font-weight: border;
+	text-align: center;
+}
+h6 {
+	font-size: 32px;
+	text-align: center;
+}
+img {
+	border: 20px solid brown;
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+}
+a:link {
+	color:red;
+}
+a:hover {
+	color:gray;
+}
+a:active {
+	color:blue;
+}
+a:visited {
+	color:green;
+}
+ol {
+	color: #0F0;
+}
+ul {
+	color: #F00;
+}

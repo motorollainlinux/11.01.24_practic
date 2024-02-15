@@ -1,0 +1,27 @@
+#wrap {
+width:1000px;
+min-height:100%;
+margin:0 auto; }
+#header {
+height: 100px;
+background-color: #FCF; }
+#left-column{
+min-height:500px;
+width:250px;
+background:orange;
+float:left; } 
+#right-column{
+min-height:500px;
+width:250px;
+background:orange;
+float:right; } 
+#content {
+width:500px;
+min-height: 500px;
+float: left;
+background-color: #3FF; }
+ #footer {
+width: 1000px;
+height: 50px;
+background: green;
+clear: both; }
