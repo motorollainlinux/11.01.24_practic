@@ -1,0 +1,18 @@
+h1{
+	color: #026e0c;
+}
+h2 {
+	color: #455c0d;
+}
+p {
+	text-align: justify;
+}
+div {
+	width: 450px;
+}
+a {
+	margin-left: 150px;
+}
+body {
+	background-image: url('grid_noise.png');
+}
