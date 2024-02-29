@@ -1,0 +1,21 @@
+img {
+	width: 150px;
+	height: 150px;
+}
+#explorer {
+	position: relative;
+	float: right;
+	color: blue;
+}
+#chrome {
+	color: green;
+}
+#firefox {
+	color: orange;
+}
+#opera {
+	color: red;
+}
+#safari {
+	color: gray;
+}

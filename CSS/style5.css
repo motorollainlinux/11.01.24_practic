@@ -1,0 +1,18 @@
+p {
+	line-height: 25px;
+	font-size: 20px;
+}
+div {
+	font-family: calibri;
+	width: 30%;
+	position: relative;
+}
+#left-div {
+	float: left;
+	left: 15%;
+}
+#right-div {
+	padding-top: 100px;
+	float: right;
+	right: 15%;
+}

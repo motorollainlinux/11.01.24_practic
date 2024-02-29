@@ -1,0 +1,67 @@
+body {
+  font-family: -apple-system, system-ui, Helvetica, Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+progress {
+	opacity: 0;
+}
+div {
+	position: relative;
+	background: #eee;
+	height: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	width: 25%;
+}
+
+div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(to bottom, #cf9 0%, #9c3 100%);
+  border-radius: 9px;
+}
+div::before {
+  animation: progress-css 1s ease-in forwards;
+}
+p::before {
+  animation: progress-css 1s ease-in forwards;
+}
+div::after {
+  animation: progress-text-css 1s ease-in forwards;
+}
+p::after {
+  animation: progress-text-css 1s ease-in forwards;
+}
+p {
+  position: relative;
+}
+p::after {
+  counter-reset: num var(--num);
+  content: counter(num) "%";
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+@keyframes progress-css {
+  to {
+    width: 100%;
+  }
+}
+@keyframes progress-text-css {
+  to {
+    --num: 100;
+  }
+}

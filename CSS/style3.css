@@ -1,0 +1,30 @@
+#Button3 {
+	background: linear-gradient(to bottom, #DFDFDF 0%, #8F8E8E 100%);
+	bolder: solid 3px black;
+	border-radius: 5px;
+	width: 60px;
+	height:20px;
+	text-align:center;
+	
+}
+#Button3 a{
+	text-decoration: none;
+	color: black;
+}
+#Button3:hover{
+	background: linear-gradient(to bottom, #8F8E8E 0%, #DFDFDF 100%);
+}
+#Button1 {
+	background: linear-gradient(to bottom, #DFDFDF 0%, #8F8E8E 100%);
+	border: none;
+}
+#Button1:hover {
+	background: linear-gradient(to bottom, #8F8E8E 0%, #DFDFDF 100%);
+}
+#Button2 {
+	background: linear-gradient(to bottom, #DFDFDF 0%, #8F8E8E 100%);
+	border: none;
+}
+#Button2:hover {
+	background: linear-gradient(to bottom, #8F8E8E 0%, #DFDFDF 100%);
+}
